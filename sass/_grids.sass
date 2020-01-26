@@ -4,6 +4,29 @@
 .container
     max-width: 940px
     margin: auto
+.head-title
+    +Bold
+    margin: 0
+    margin-top: 80px
+    
+    text-align: center
+    font-size: 36px
+
+    position: relative
+    &::before
+        content: ''
+        width: 119px
+        height: 5px
+       
+        background: url('../img/wave.png') no-repeat center
+        background-size: 100%
+
+        display: block
+        position: absolute
+        bottom: -70%
+        left: 45%
+    
+    
 
 @media screen and ( max-width: 1024px )
     .container

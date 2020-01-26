@@ -24,6 +24,27 @@
   margin: auto;
 }
 
+.head-title {
+  font-family: 'Muller ExtraBold', sans-serif;
+  margin: 0;
+  margin-top: 80px;
+  text-align: center;
+  font-size: 36px;
+  position: relative;
+}
+
+.head-title::before {
+  content: '';
+  width: 119px;
+  height: 5px;
+  background: url("../img/wave.png") no-repeat center;
+  background-size: 100%;
+  display: block;
+  position: absolute;
+  bottom: -70%;
+  left: 45%;
+}
+
 @media screen and (max-width: 1024px) {
   .container {
     max-width: auto;
@@ -33,7 +54,7 @@
 
 body {
   font-family: 'Muller Thin', sans-serif;
-  font-weight: 400;
+  font-weight: 800;
   color: #000000;
 }
 
@@ -237,5 +258,28 @@ body img {
   .about-info {
     display: block;
   }
+}
+
+.reasons-vacation {
+  margin-top: 95px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.reasons-vacation__group {
+  margin: 0 30px;
+  min-width: 220px;
+}
+
+.reasons-vacation__label {
+  font-size: 16px;
+  font-weight: 800;
 }
 /*# sourceMappingURL=style.css.map */
