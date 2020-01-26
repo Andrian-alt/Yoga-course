@@ -45,6 +45,19 @@
   left: 45%;
 }
 
+.btn {
+  font-family: 'Muller ExtraBold', sans-serif;
+  border: 2px solid #e28234;
+  background: transparent;
+  color: #e28234;
+  padding: 15px 25px;
+}
+
+.btn:hover {
+  background: #e28234;
+  color: #ffffff;
+}
+
 @media screen and (max-width: 1024px) {
   .container {
     max-width: auto;
@@ -134,8 +147,7 @@ body img {
 .hero-btn:hover {
   background-color: #db883c;
   border: none;
-  width: 302pxp22;
-  padding: 22px;
+  padding: 22px 72px;
 }
 
 .hero-links {
@@ -281,5 +293,40 @@ body img {
 .reasons-vacation__label {
   font-size: 16px;
   font-weight: 800;
+}
+
+.request {
+  padding-bottom: 80px;
+}
+
+.request-schedule {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  text-align: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 100px;
+}
+
+.request-weight {
+  margin: 5px;
+  display: block;
+  background-color: #fff8e6;
+  width: 225px;
+  padding-top: 31px;
+  padding-bottom: 20px;
+}
+
+.request__date {
+  color: #4b4b4b;
+  font-size: 14px;
+}
+
+.request__lowering {
+  font-size: 18px;
 }
 /*# sourceMappingURL=style.css.map */
