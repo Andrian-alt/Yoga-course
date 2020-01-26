@@ -1,1 +1,36 @@
-/* No CSS *//*# sourceMappingURL=style.css.map */
+@font-face {
+  font-family: 'Muller Thin';
+  src: url("../fonts/MullerThinDEMO.eot");
+  src: url("../fonts/MullerThinDEMO.eot?#iefix") format("embedded-opentype"), url("../fonts/MullerThinDEMO.woff") format("woff"), url("../fonts/MullerThinDEMO.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muller ExtraBold';
+  src: url("../fonts/MullerExtraBoldDEMO.eot");
+  src: url("../fonts/MullerExtraBoldDEMO.eot?#iefix") format("embedded-opentype"), url("../fonts/MullerExtraBoldDEMO.woff") format("woff"), url("../fonts/MullerExtraBoldDEMO.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.container {
+  max-width: 940px;
+  margin: auto;
+}
+
+body {
+  font-family: 'Muller ExtraBold', sans-serif;
+  font-weight: 400;
+  color: #000000;
+}
+
+body img {
+  max-width: 100%;
+}
+/*# sourceMappingURL=style.css.map */
