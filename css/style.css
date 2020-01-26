@@ -25,12 +25,129 @@
 }
 
 body {
-  font-family: 'Muller ExtraBold', sans-serif;
+  font-family: 'Muller Thin', sans-serif;
   font-weight: 400;
   color: #000000;
 }
 
 body img {
   max-width: 100%;
+}
+
+.header {
+  background: #f8f2e4 url("../img/header/header-bg.jpg") no-repeat center;
+  background-size: cover;
+  padding: 20px;
+  color: #ffffff;
+}
+
+.hero-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: end;
+  margin-bottom: 180px;
+}
+
+.hero__call {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.hero__number {
+  font-family: 'Muller ExtraBold', sans-serif;
+  font-size: 20px;
+}
+
+.hero-info {
+  text-align: center;
+}
+
+.hero-heading {
+  text-transform: uppercase;
+  font-size: 60px;
+  font-weight: 900;
+}
+
+.hero-heading__slash {
+  font-family: arial;
+  font-weight: 20px;
+}
+
+.hero-title {
+  text-transform: uppercase;
+  font-size: 25px;
+  margin-top: 45px;
+  margin-bottom: 15px;
+}
+
+.hero-subtitle {
+  font-size: 20px;
+  margin-bottom: 100px;
+}
+
+.hero-btn {
+  font-family: 'Muller ExtraBold', sans-serif;
+  color: #ffffff;
+  width: 300px;
+  padding: 20px;
+  text-transform: uppercase;
+  border: 2px solid #ffffff;
+  background-color: transparent;
+  outline: none;
+  margin-bottom: 200px;
+}
+
+.hero-btn:hover {
+  background-color: #db883c;
+  border: none;
+  width: 302pxp22;
+  padding: 22px;
+}
+
+.hero-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.hero-media {
+  width: 26px;
+  height: 26px;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  margin: 0 20px;
+  position: relative;
+}
+
+.hero-media-vk {
+  position: absolute;
+  top: 8px;
+  left: 5px;
+}
+
+.hero-media-faceb {
+  position: absolute;
+  top: 5px;
+  left: 9px;
+}
+
+.hero-media-inst {
+  position: absolute;
+  top: 25%;
+  left: 27%;
+}
+
+.hero-media:hover {
+  background-color: #db883c;
 }
 /*# sourceMappingURL=style.css.map */
