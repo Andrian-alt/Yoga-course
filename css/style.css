@@ -27,7 +27,6 @@
 .head-title {
   font-family: 'Muller ExtraBold', sans-serif;
   margin: 0;
-  margin-top: 80px;
   text-align: center;
   font-size: 36px;
   position: relative;
@@ -662,5 +661,98 @@ body img {
   .work-group::before {
     display: none;
   }
+}
+
+.price {
+  background-color: #f8f2e4;
+  padding: 80px 0;
+}
+
+.price-pricelist {
+  background: #ffffff;
+  padding: 40px 50px;
+  margin-top: 100px;
+}
+
+.price-tours {
+  font-family: 'Muller ExtraBold', sans-serif;
+}
+
+.price-tours-programs {
+  font-family: 'Muller Thin', sans-serif;
+  font-weight: 800;
+  color: #000000;
+  font-weight: 900;
+}
+
+.price-tours-cost {
+  font-family: 'Muller ExtraBold', sans-serif;
+  color: #dd490f;
+  margin-left: 400px;
+}
+
+.price-ask {
+  font-family: 'Muller ExtraBold', sans-serif;
+  font-size: 18px;
+  background-color: #f4e1b6;
+  padding: 15px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.price-ask__btn {
+  padding: 10px 60px;
+}
+
+.include-heading, .include-payment {
+  font-family: 'Muller ExtraBold', sans-serif;
+  text-align: center;
+  margin: 50px;
+}
+
+.include-payment {
+  margin-bottom: 0;
+}
+
+.include-list {
+  list-style-image: url("../img/price/1.png");
+}
+
+.include-list__element {
+  margin: 20px;
+  padding-left: 40px;
+}
+
+.include-havent {
+  list-style-image: url("../img/price/2.png");
+}
+
+.guarantee {
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.guarantee-subtitle {
+  margin-top: 100px;
+  text-indent: 20px;
+}
+
+.guarantee-heading {
+  margin-top: 60px;
+  font-size: 25px;
+}
+
+.guarantee-documents {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 /*# sourceMappingURL=style.css.map */
