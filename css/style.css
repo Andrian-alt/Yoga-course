@@ -443,4 +443,112 @@ body img {
     height: auto;
   }
 }
+
+.stuff {
+  background-color: #f8f2e4;
+  height: 1140px;
+  padding-top: 50px;
+}
+
+.stuff-info {
+  margin-top: 80px;
+}
+
+.stuff-team {
+  display: block;
+  width: 470px;
+}
+
+.stuff-image {
+  position: relative;
+}
+
+.stuff-image::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 170px;
+  background-color: #444444;
+  opacity: 0.5;
+  z-index: 2;
+}
+
+.stuff-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #ffffff;
+  height: auto;
+  width: 100%;
+  position: absolute;
+  bottom: 10%;
+  z-index: 2;
+  padding: 0 5px;
+}
+
+.stuff-team {
+  position: relative;
+}
+
+.stuff-team::before {
+  content: '';
+  width: 3px;
+  height: 80px;
+  background: #ffffff;
+  background-size: 100%;
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -10%;
+}
+
+.stuff__name {
+  margin-bottom: 15px;
+}
+
+.stuff__checkbox {
+  display: none;
+}
+
+.stuff__checkbox::before {
+  border: 3px solid #ffffff;
+}
+
+.stuff__checkbox:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .stuff-team {
+    position: relative;
+  }
+  .stuff-team::before {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .stuff__photo {
+    display: none;
+  }
+  .stuff-image::before {
+    background: none;
+  }
+  .stuff-text {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    position: relative;
+    color: #000000;
+  }
+  .stuff-team {
+    margin-top: 20px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
