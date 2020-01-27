@@ -50,7 +50,7 @@
   border: 2px solid #e28234;
   background: transparent;
   color: #e28234;
-  padding: 15px 25px;
+  padding: 10px 15px;
 }
 
 .btn:hover {
@@ -147,7 +147,8 @@ body img {
 .hero-btn:hover {
   background-color: #db883c;
   border: none;
-  padding: 22px 72px;
+  width: 302pxp22;
+  padding: 22px;
 }
 
 .hero-links {
@@ -328,5 +329,118 @@ body img {
 
 .request__lowering {
   font-size: 18px;
+}
+
+.info__title {
+  margin-bottom: 100px;
+}
+
+.info-subtitle {
+  text-indent: 20px;
+  font-size: 16px;
+  font-weight: 900;
+  line-height: 22px;
+}
+
+.info-heading {
+  font-family: 'Muller ExtraBold', sans-serif;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 900;
+  margin: 40px 0;
+}
+
+.info-program-group {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 20px;
+}
+
+.info-program__description {
+  max-width: 350px;
+  margin-left: 20px;
+}
+
+.center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  margin-top: 70px;
+  padding: 10px 0 80px 10px;
+}
+
+.center::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 65%;
+  height: 264px;
+  background-color: #f8f2e4;
+  z-index: -1;
+}
+
+.center-image {
+  margin-right: 40px;
+}
+
+.center__heading {
+  margin-bottom: 10px;
+  text-align: left;
+}
+
+.center__city {
+  font-size: 14px;
+  color: #4b4b4b;
+  margin-bottom: 35px;
+}
+
+.center-list {
+  -webkit-column-count: 2;
+          column-count: 2;
+  list-style-image: url("../img/info/logo_mini.png");
+  list-style-position: outside;
+  height: 260px;
+  margin-top: 50px;
+}
+
+.center-list__element {
+  max-width: 194px;
+  font-size: 12px;
+  color: #454545;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 1024px) {
+  .center {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .center::before {
+    background: none;
+  }
+  .center__heading, .center__city {
+    display: block;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .center-list {
+    -webkit-column-count: 1;
+            column-count: 1;
+    height: auto;
+  }
 }
 /*# sourceMappingURL=style.css.map */
