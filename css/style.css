@@ -146,8 +146,7 @@ body img {
 .hero-btn:hover {
   background-color: #db883c;
   border: none;
-  width: 302pxp22;
-  padding: 22px;
+  padding: 22px 72px;
 }
 
 .hero-links {
@@ -754,5 +753,124 @@ body img {
       justify-content: space-around;
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
+}
+
+.navbar {
+  background-color: #fcf9f1;
+  padding: 50px 0;
+}
+
+.contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacts-online {
+  margin-right: 100px;
+}
+
+.contacts-media {
+  color: #000;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 30px;
+}
+
+.contacts-links {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #e28234;
+  border-radius: 50%;
+  position: relative;
+}
+
+.contacts-vk {
+  position: absolute;
+  top: 35%;
+  left: 20%;
+}
+
+.contacts-faceb {
+  position: absolute;
+  top: 25%;
+  left: 35%;
+}
+
+.contacts-inst {
+  position: absolute;
+  top: 25%;
+  left: 25%;
+}
+
+.contacts__phone {
+  margin-bottom: 30px;
+}
+
+.contacts-info {
+  font-size: 12px;
+}
+
+.contacts-number {
+  font-family: 'Muller ExtraBold', sans-serif;
+  font-size: 25px;
+  margin: 0;
+}
+
+.nav-map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.footer {
+  background-color: #383838;
+  padding: 12px 0;
+  font-size: 12px;
+}
+
+.footer-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  color: #ffffff;
+}
+
+.footer-about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer__logo {
+  margin-right: 30px;
+}
+
+.footer-link {
+  color: #ffffff;
+  font-size: 20px;
 }
 /*# sourceMappingURL=style.css.map */
